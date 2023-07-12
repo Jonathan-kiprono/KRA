@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+/* Logo styling start*/
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* Logo styling start*/
+
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+  }
+  header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+ 
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #EF242A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+.footer {
+  background-color:#EF242A;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+ font-size: 50%;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
